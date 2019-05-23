@@ -460,7 +460,7 @@ function postMessageA() {
 function postMessageB() {
   var botResponse, options, body, botReq;
 
-  botResponse = "https://i.imgur.com/hLwSQI1.jpg";
+  botResponse = "https://i.imgur.com/rgRd59V.png";
 
   options = {
     hostname: 'api.groupme.com',
