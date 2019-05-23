@@ -20,6 +20,16 @@ function respond() {
 	  botRegexC = /^\/disgust$/;
 	  botRegexD = /^\/gas$/;
 	  botRegexE = /^\/boomer$/;
+	  botRegexF = /^\/POG$/;
+	  botRegexG = /^\/pepehands$/;
+	  botRegexH = /^\/TUFF$/;
+	  botRegexI = /^\/cmonbruh$/;
+	  botRegexJ = /^\/ope$/;
+	  botRegexK = /^\/thot detected$/;
+	  botRegexL = /^\/omw$/;
+	  botRegexM = /^\/neat$/;
+	  botRegexN = /^\/WOAH$/;
+
 	  
 
   if(request.text && botRegex0.test(request.text)) {
@@ -111,6 +121,62 @@ function respond() {
     postMessageE();
     this.res.end();
   }
+  
+  else if(request.text && botRegexF.test(request.text)) {
+    this.res.writeHead(200);
+    postMessageF();
+    this.res.end();
+  }
+  
+  else if(request.text && botRegexG.test(request.text)) {
+    this.res.writeHead(200);
+    postMessageG();
+    this.res.end();
+  }
+  
+  else if(request.text && botRegexH.test(request.text)) {
+    this.res.writeHead(200);
+    postMessageH();
+    this.res.end();
+  }
+  
+  else if(request.text && botRegexI.test(request.text)) {
+    this.res.writeHead(200);
+    postMessageI();
+    this.res.end();
+  }
+  
+  else if(request.text && botRegexJ.test(request.text)) {
+    this.res.writeHead(200);
+    postMessageJ();
+    this.res.end();
+  }
+  
+  else if(request.text && botRegexK.test(request.text)) {
+    this.res.writeHead(200);
+    postMessageK();
+    this.res.end();
+  }
+  
+  else if(request.text && botRegexL.test(request.text)) {
+    this.res.writeHead(200);
+    postMessageL();
+    this.res.end();
+  }
+  
+  else if(request.text && botRegexM.test(request.text)) {
+    this.res.writeHead(200);
+    postMessageM();
+    this.res.end();
+  }
+  
+  else if(request.text && botRegexN.test(request.text)) {
+    this.res.writeHead(200);
+    postMessageN();
+    this.res.end();
+  }
+  
+  
   
   else {
     console.log("don't care");
@@ -580,6 +646,322 @@ function postMessageE() {
   var botResponse, options, body, botReq;
 
   botResponse = "https://i.imgur.com/uFc3TIQ.jpg";
+
+  options = {
+    hostname: 'api.groupme.com',
+    path: '/v3/bots/post',
+    method: 'POST'
+  };
+
+  body = {
+    "bot_id" : botID,
+    "text" : botResponse
+  };
+
+  console.log('sending ' + botResponse + ' to ' + botID);
+
+  botReq = HTTPS.request(options, function(res) {
+      if(res.statusCode == 202) {
+        //neat
+      } else {
+        console.log('rejecting bad status code ' + res.statusCode);
+      }
+  });
+
+  botReq.on('error', function(err) {
+    console.log('error posting message '  + JSON.stringify(err));
+  });
+  botReq.on('timeout', function(err) {
+    console.log('timeout posting message '  + JSON.stringify(err));
+  });
+  botReq.end(JSON.stringify(body));
+}
+
+function postMessageF() {
+  var botResponse, options, body, botReq;
+
+  botResponse = "https://i.imgur.com/joEgVfo.png";
+
+  options = {
+    hostname: 'api.groupme.com',
+    path: '/v3/bots/post',
+    method: 'POST'
+  };
+
+  body = {
+    "bot_id" : botID,
+    "text" : botResponse
+  };
+
+  console.log('sending ' + botResponse + ' to ' + botID);
+
+  botReq = HTTPS.request(options, function(res) {
+      if(res.statusCode == 202) {
+        //neat
+      } else {
+        console.log('rejecting bad status code ' + res.statusCode);
+      }
+  });
+
+  botReq.on('error', function(err) {
+    console.log('error posting message '  + JSON.stringify(err));
+  });
+  botReq.on('timeout', function(err) {
+    console.log('timeout posting message '  + JSON.stringify(err));
+  });
+  botReq.end(JSON.stringify(body));
+}
+
+
+function postMessageG() {
+  var botResponse, options, body, botReq;
+
+  botResponse = "https://i.imgur.com/UOLYt8A.jpg";
+
+  options = {
+    hostname: 'api.groupme.com',
+    path: '/v3/bots/post',
+    method: 'POST'
+  };
+
+  body = {
+    "bot_id" : botID,
+    "text" : botResponse
+  };
+
+  console.log('sending ' + botResponse + ' to ' + botID);
+
+  botReq = HTTPS.request(options, function(res) {
+      if(res.statusCode == 202) {
+        //neat
+      } else {
+        console.log('rejecting bad status code ' + res.statusCode);
+      }
+  });
+
+  botReq.on('error', function(err) {
+    console.log('error posting message '  + JSON.stringify(err));
+  });
+  botReq.on('timeout', function(err) {
+    console.log('timeout posting message '  + JSON.stringify(err));
+  });
+  botReq.end(JSON.stringify(body));
+}
+
+function postMessageH() {
+  var botResponse, options, body, botReq;
+
+  botResponse = "https://i.imgur.com/OXuH6a6.jpg";
+
+  options = {
+    hostname: 'api.groupme.com',
+    path: '/v3/bots/post',
+    method: 'POST'
+  };
+
+  body = {
+    "bot_id" : botID,
+    "text" : botResponse
+  };
+
+  console.log('sending ' + botResponse + ' to ' + botID);
+
+  botReq = HTTPS.request(options, function(res) {
+      if(res.statusCode == 202) {
+        //neat
+      } else {
+        console.log('rejecting bad status code ' + res.statusCode);
+      }
+  });
+
+  botReq.on('error', function(err) {
+    console.log('error posting message '  + JSON.stringify(err));
+  });
+  botReq.on('timeout', function(err) {
+    console.log('timeout posting message '  + JSON.stringify(err));
+  });
+  botReq.end(JSON.stringify(body));
+}
+
+function postMessageI() {
+  var botResponse, options, body, botReq;
+
+  botResponse = "https://i.imgur.com/mv9hlxC.jpg";
+
+  options = {
+    hostname: 'api.groupme.com',
+    path: '/v3/bots/post',
+    method: 'POST'
+  };
+
+  body = {
+    "bot_id" : botID,
+    "text" : botResponse
+  };
+
+  console.log('sending ' + botResponse + ' to ' + botID);
+
+  botReq = HTTPS.request(options, function(res) {
+      if(res.statusCode == 202) {
+        //neat
+      } else {
+        console.log('rejecting bad status code ' + res.statusCode);
+      }
+  });
+
+  botReq.on('error', function(err) {
+    console.log('error posting message '  + JSON.stringify(err));
+  });
+  botReq.on('timeout', function(err) {
+    console.log('timeout posting message '  + JSON.stringify(err));
+  });
+  botReq.end(JSON.stringify(body));
+}
+
+function postMessageJ() {
+  var botResponse, options, body, botReq;
+
+  botResponse = "https://i.imgur.com/rA1uXVc.jpg";
+
+  options = {
+    hostname: 'api.groupme.com',
+    path: '/v3/bots/post',
+    method: 'POST'
+  };
+
+  body = {
+    "bot_id" : botID,
+    "text" : botResponse
+  };
+
+  console.log('sending ' + botResponse + ' to ' + botID);
+
+  botReq = HTTPS.request(options, function(res) {
+      if(res.statusCode == 202) {
+        //neat
+      } else {
+        console.log('rejecting bad status code ' + res.statusCode);
+      }
+  });
+
+  botReq.on('error', function(err) {
+    console.log('error posting message '  + JSON.stringify(err));
+  });
+  botReq.on('timeout', function(err) {
+    console.log('timeout posting message '  + JSON.stringify(err));
+  });
+  botReq.end(JSON.stringify(body));
+}
+
+function postMessageK() {
+  var botResponse, options, body, botReq;
+
+  botResponse = "https://i.imgur.com/HeegNIy.jpg";
+
+  options = {
+    hostname: 'api.groupme.com',
+    path: '/v3/bots/post',
+    method: 'POST'
+  };
+
+  body = {
+    "bot_id" : botID,
+    "text" : botResponse
+  };
+
+  console.log('sending ' + botResponse + ' to ' + botID);
+
+  botReq = HTTPS.request(options, function(res) {
+      if(res.statusCode == 202) {
+        //neat
+      } else {
+        console.log('rejecting bad status code ' + res.statusCode);
+      }
+  });
+
+  botReq.on('error', function(err) {
+    console.log('error posting message '  + JSON.stringify(err));
+  });
+  botReq.on('timeout', function(err) {
+    console.log('timeout posting message '  + JSON.stringify(err));
+  });
+  botReq.end(JSON.stringify(body));
+}
+
+function postMessageL() {
+  var botResponse, options, body, botReq;
+
+  botResponse = "https://i.imgur.com/tLqNbGt.png";
+
+  options = {
+    hostname: 'api.groupme.com',
+    path: '/v3/bots/post',
+    method: 'POST'
+  };
+
+  body = {
+    "bot_id" : botID,
+    "text" : botResponse
+  };
+
+  console.log('sending ' + botResponse + ' to ' + botID);
+
+  botReq = HTTPS.request(options, function(res) {
+      if(res.statusCode == 202) {
+        //neat
+      } else {
+        console.log('rejecting bad status code ' + res.statusCode);
+      }
+  });
+
+  botReq.on('error', function(err) {
+    console.log('error posting message '  + JSON.stringify(err));
+  });
+  botReq.on('timeout', function(err) {
+    console.log('timeout posting message '  + JSON.stringify(err));
+  });
+  botReq.end(JSON.stringify(body));
+}
+
+function postMessageM() {
+  var botResponse, options, body, botReq;
+
+  botResponse = "https://i.imgur.com/7FwyBcH.png";
+
+  options = {
+    hostname: 'api.groupme.com',
+    path: '/v3/bots/post',
+    method: 'POST'
+  };
+
+  body = {
+    "bot_id" : botID,
+    "text" : botResponse
+  };
+
+  console.log('sending ' + botResponse + ' to ' + botID);
+
+  botReq = HTTPS.request(options, function(res) {
+      if(res.statusCode == 202) {
+        //neat
+      } else {
+        console.log('rejecting bad status code ' + res.statusCode);
+      }
+  });
+
+  botReq.on('error', function(err) {
+    console.log('error posting message '  + JSON.stringify(err));
+  });
+  botReq.on('timeout', function(err) {
+    console.log('timeout posting message '  + JSON.stringify(err));
+  });
+  botReq.end(JSON.stringify(body));
+}
+
+function postMessageN() {
+  var botResponse, options, body, botReq;
+
+  botResponse = "https://i.imgur.com/GezeA9G.png";
 
   options = {
     hostname: 'api.groupme.com',
