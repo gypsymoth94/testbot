@@ -20,7 +20,7 @@ function respond() {
 	  botRegexC = /^\/disgust$/;
 	  botRegexD = /^\/gas$/;
 	  botRegexE = /^\/boomer$/;
-	  botRegexF = /^\/POG$/;
+	  botRegexF = /^\/POGU$/;
 	  botRegexG = /^\/pepehands$/;
 	  botRegexH = /^\/TUFF$/;
 	  botRegexI = /^\/cmonbruh$/;
