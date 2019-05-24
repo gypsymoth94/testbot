@@ -92,7 +92,7 @@ function respond()  {
 	  botRegex26 = /^\/howdy$/;
 	  botRegex27 = /^\/rly$/;
 	  botRegex28 = /^\/box$/;
-	  botRegex29 = /^\/srlsly$/;
+	  botRegex29 = /^\/srsly$/;
 	  botRegex30 = /^\/aww yee$/;
 	  botRegex31 = /^\/love$/;
 	  botRegex32 = /^\/WHO TF UP$/;
