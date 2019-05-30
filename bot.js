@@ -9,7 +9,7 @@ var M16, M17, M18, M19, M20, M21, M22, M23, M24, M25, M26, M27, M28, M29, M30;
 var M31, M32, M33, M34, M35, M36, M37, M38, M39, M40, M41, M42, M43, M44, M45, M46, M47, M48, M49, M50;
 
 
-		M0 = "Hey, thats me!  My name is Brian Strohm & I am a BOT.   https://i.imgur.com/GVyC0M0.gif";
+		M0 = "Hey, thats me!  My name is Brian Strohm & I am a BOT.   https://i.imgur.com/GVyC0M0.gifv";
 		M1 = "GREATEST OF ALL TIME";
 		M2 = "______BLANK_______";
 		M3 = "I would suck his fucking dick right this second";
