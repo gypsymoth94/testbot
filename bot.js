@@ -9,19 +9,19 @@ var M16, M17, M18, M19, M20, M21, M22, M23, M24, M25, M26, M27, M28, M29, M30;
 var M31, M32, M33, M34, M35, M36, M37, M38, M39, M40, M41, M42, M43, M44, M45, M46, M47, M48, M49, M50;
 
 
-		M0 = "Hey, thats me!  My name is Brian Strohm & I am a BOT.   https://i.imgur.com/GVyC0M0.gifv";
+		M0 = "Hey, thats me!  My name is Brian Strohm & I am a BOT.   https://i.imgur.com/GVyC0M0.gif";
 		M1 = "GREATEST OF ALL TIME";
 		M2 = "______BLANK_______";
 		M3 = "I would suck his fucking dick right this second";
 		M4 = "Team Cancer";
-		M5 = "https://i.imgur.com/cKFuDlI.gifv";
-		M6 = "https://i.imgur.com/Gzenw1K.gifv";
+		M5 = "https://i.imgur.com/cKFuDlI.gif";
+		M6 = "https://i.imgur.com/Gzenw1K.gif";
 		M7 = "Baby is due in July, wedding is next Thursday.  You're all invited";
 		M8 = "https://i.imgur.com/IJxvPFl.jpg";
 		M9 = "https://i.imgur.com/sE70Lxx.jpg";
 		M10 = "https://i.imgur.com/YBk9van.png";
 		M11 = "https://i.imgur.com/rgRd59V.png";
-		M12 = "https://i.imgur.com/uthvglv.gifv";
+		M12 = "https://i.imgur.com/uthvglv.gif";
 		M13 = "https://i.imgur.com/igQaiMP.jpg";
 		M14 = "https://i.imgur.com/uFc3TIQ.jpg";
 		M15 = "https://i.imgur.com/joEgVfo.png";
