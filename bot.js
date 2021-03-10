@@ -44,7 +44,7 @@ var M31, M32, M33, M34, M35, M36, M37, M38, M39, M40, M41, M42, M43, M44, M45, M
 		M32 = "https://i.imgur.com/uHckvhm.jpg";
 		M33 = "https://i.imgur.com/R4bJLPb.jpg";
 		M34 = "https://media.tenor.com/images/d3c051971baf90c90c221744af48cc8d/tenor.gif";
-		M35 = "______BLANK_______";
+		M35 = "BEEN";
 		M36 = "______BLANK_______";
 		M37 = "______BLANK_______";
 		M38 = "______BLANK_______";
@@ -98,7 +98,7 @@ function respond()  {
 	  botRegex32 = /^\/WHO TF UP$/;
 	  botRegex33 = /^\/beam me up scotty$/;
 	  botRegex34 = /^\/w$/;
-	  botRegex35 = /^\/FFFFFF$/;
+	  botRegex35 = /^\NEVER$/;
 	  botRegex36 = /^\/GGGGGG$/;
 	  botRegex37 = /^\/HHHHHH$/;
 	  botRegex38 = /^\/IIIIII$/;
